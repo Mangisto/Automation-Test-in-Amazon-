@@ -20,3 +20,4 @@ Feature: Task 2
         When user clicks on Add to Cart button
         Then The text "Added to Cart" is displayed on the screen
         And user removes Scissors from the cart
+        
