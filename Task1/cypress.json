@@ -1,0 +1,29 @@
+{
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "pageLoadTimeout":120000,
+    "chromeWebSecurity": false,
+    "ignoreTestFiles": ["*.js", "*.old"],
+    "reporter": "spec",
+    "reporterOptions": {
+      "mochaFile": "../allure-results/cypress-report-[hash].xml",
+      "attachments": true,
+      "toConsole": true,
+      "overwrite": true,
+      "json": true,
+      "html": false,
+      "videos": true,
+      "videoCompression": false,
+      "screenshots": true
+    },
+    "requestTimeout": 40000,
+    "watchForFileChanges": true,
+    "testFiles": [
+      "**/CustomerService.feature"
+    ],
+    "video": false,
+    "videoUploadOnPasses": false,
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true
+  }
+  
